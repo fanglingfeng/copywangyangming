@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">wangyangming</string>
+    <string name="string_money">￥</string>
+    <string name="string_readers">人阅读</string>
+    <string name="string_jifen">积分：</string>
+    <string name="author">作者：</string>
+    <string name="provider">来源：</string>
+    <string name="readers">阅读量：</string>
+    <string name="downloads">下载量：</string>
+    <string name="originalPrice">价格：￥</string>
+    <string name="contributionValue">贡献量：</string>
+</resources>

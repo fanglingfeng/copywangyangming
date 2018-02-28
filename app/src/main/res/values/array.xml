@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_tab_arrays">
+        <item>首页</item>
+        <item>书房</item>
+        <item>活动</item>
+        <item>我的</item>
+    </string-array>
+    <string-array name="subscribe_onlinebusiness_arrays">
+        <item>常用</item>
+        <item>个人</item>
+        <item>企业</item>
+        <item>部门</item>
+    </string-array>
+    <string-array name="main_zhengwu_tab_arrays">
+        <item>个人办事</item>
+        <item>企业办事</item>
+        <item>部门办事</item>
+        <!--<item>协同办事</item>-->
+        <item>证明文件</item>
+        <item>新闻资讯</item>
+        <item>政民互动</item>
+        <item>机构导航</item>
+    </string-array>
+    <string-array name="zhengwu_space_titles">
+        <item>空间服务</item>
+        <item>用户空间</item>
+        <item>企业空间</item>
+    </string-array>
+    <!-- 办事指南item名称 -->
+    <string-array name="apply_perm_guide_item_str">
+        <item>办理条件：</item>
+        <item>申请材料：</item>
+        <item>办理时限：</item>
+        <item>收费标准：</item>
+        <item>办理依据：</item>
+        <item>样例预览：</item>
+        <item>审批表格下载：</item>
+        <item>常见问题解答：</item>
+    </string-array>
+
+    <!-- 办事指南item图标id -->
+    <integer-array name="apply_perm_guide_item_img">
+
+    </integer-array>
+</resources>

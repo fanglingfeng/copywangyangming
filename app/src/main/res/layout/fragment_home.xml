@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="loadObservableBean"
+            type="webhall.tyky.com.wangyangming.bean.LoadObservableBean" />
+    </data>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/order_bg"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_56"
+            android:background="@color/colorPrimary"
+            android:tag="skin:colorPrimary:background"
+            />
+
+        <RelativeLayout
+            android:id="@+id/rl_gznews_banner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_200"
+            >
+
+            <LinearLayout
+                android:id="@+id/failed_to_load_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="@{loadObservableBean.showReloadLayout?View.VISIBLE:View.GONE}">
+
+                <ImageView
+                    android:layout_width="@dimen/space_45"
+                    android:layout_height="@dimen/space_45"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/icon_cry_face" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_13"
+                    android:gravity="center"
+                    android:text="加载失败"
+                    android:textColor="#DADADA"
+                    android:textSize="@dimen/text_size_14" />
+
+                <ImageView
+                    android:layout_width="@dimen/space_35"
+                    android:layout_height="@dimen/space_35"
+                    android:layout_marginTop="@dimen/space_15"
+                    android:src="@mipmap/icon_refresh" />
+            </LinearLayout>
+
+            <com.bigkoo.convenientbanner.ConvenientBanner
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:canLoop="true"></com.bigkoo.convenientbanner.ConvenientBanner>
+
+            <TextView
+                android:id="@+id/banner_desc_tv"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_40"
+                android:layout_alignParentBottom="true"
+                android:background="@color/gz_news_top_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/space_10"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/banner_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/space_5"
+                android:layout_marginRight="@dimen/space_5"
+                android:background="@drawable/bg_banner_page"
+                android:paddingBottom="@dimen/space_2"
+                android:paddingLeft="@dimen/space_5"
+                android:paddingRight="@dimen/space_5"
+                android:paddingTop="@dimen/space_2"
+                android:text="0/0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12"
+                 />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:background="@color/white"
+                android:text="分类"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/space_10"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/space_15" />
+            <android.support.v7.widget.RecyclerView
+                android:background="@color/white"
+                android:id="@+id/rv_fenlei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="@dimen/space_20"
+                android:textColor="@color/gray"
+                android:gravity="center"
+                android:text="精品推荐"
+                android:background="@color/white"
+                android:padding="@dimen/space_10"
+                android:layout_marginTop="@dimen/space_10"
+                android:layout_marginBottom="@dimen/space_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_jingpintuijian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </com.zhy.android.percent.support.PercentLinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</layout>

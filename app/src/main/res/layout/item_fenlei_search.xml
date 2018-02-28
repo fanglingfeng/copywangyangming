@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="fenleisearchbean"
+            type="webhall.tyky.com.wangyangming.bean.FenleiSearchBean" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_2"
+        android:background="@color/white"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:padding="@dimen/space_2">
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/space_10"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_150">
+
+            <ImageView
+                android:id="@+id/iv_service_type"
+                android:layout_width="@dimen/space_100"
+                android:layout_height="@dimen/space_150"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:layout_marginLeft="@dimen/space_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/iv_service_type"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="@dimen/space_20"
+                    android:text='@{fenleisearchbean.title}'
+                    android:textSize="@dimen/space_20"
+                    android:textColor="@color/colorPrimary"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text='@{@string/author+fenleisearchbean.author}'
+                    android:textSize="@dimen/space_16"
+                    android:textColor="@color/gray"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text='@{@string/provider+fenleisearchbean.provider}'
+                    android:textSize="@dimen/space_16"
+                    android:textColor="@color/gray"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text='@{@string/readers+fenleisearchbean.readers}'
+                        android:textSize="@dimen/space_16"
+                        android:textColor="@color/gray"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginLeft="@dimen/space_5"
+                        android:text='@{@string/downloads+fenleisearchbean.downloads}'
+                        android:textSize="@dimen/space_16"
+                        android:textColor="@color/gray"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text='@{@string/originalPrice+fenleisearchbean.originalPrice}'
+                        android:textSize="@dimen/space_16"
+                        android:textColor="@color/gray"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginLeft="@dimen/space_5"
+                        android:text='@{@string/contributionValue+fenleisearchbean.contributionValue}'
+                        android:textSize="@dimen/space_16"
+                        android:textColor="@color/gray"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/divide_line"
+            android:layout_marginTop="@dimen/space_2" />
+
+
+    </LinearLayout>
+</layout>

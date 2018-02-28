@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MainTheme" parent="BaseAppTheme">
+        <!--text style-->
+        <item name="colorPrimary">#1984d4</item>
+        <item name="colorPrimaryDark">#1c5e8f</item>
+        <item name="android:textSize">@dimen/text_size_15</item>
+        <!--<item name="android:windowTranslucentStatus">false</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+        <!--&lt;!&ndash;Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色&ndash;&gt;-->
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+
+    </style>
+
+    <style name="SubTheme" parent="BaseAppTheme">
+        <!--text style-->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="android:textSize">@dimen/text_size_15</item>
+    </style>
+    <style name="SplashTheme" parent="BaseAppThemeFull">
+        <!-- 将splash图片设置在这，这样这张图片取代白屏 -->
+        <item name="android:windowBackground">@mipmap/bg_start</item>
+        <item name="android:windowFullscreen">true</item>
+        <!-- 或者是将主题设置成透明，虽然点击图标会有点小小的卡顿，但是用户体验不影响 -->
+        <!-- <item name="android:windowIsTranslucent">true</item> --> <!-- 透明背景不要了 -->
+    </style>
+
+</resources>

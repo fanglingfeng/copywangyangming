@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--基本项目-->
+    <color name="toolbar_back">#1984d3</color>
+    <color name="toolbar_back_red">#FF4081</color>
+    <color name="toolbar_back_yellow">#FBBC05</color>
+    <color name="toolbar_tv">#000000</color>
+    <color name="toolbarColor">#000000</color>
+    <color name="snackBar_back">#1984d4</color>
+    <color name="bg_color">#EDEDED</color>
+    <color name="base_select">#dfdfdf</color>
+    <color name="bg_setting">#111a4a</color>
+
+    <!-- 常用颜色值 -->
+    <color name="colorPrimary_red">#FF4081</color>
+
+    <color name="normal_color">#c7c7cb</color>
+    <color name="ios_default">#EBEBF1
+    </color>
+    <color name="white40">#40FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFCA28</color>
+    <color name="green">#008000</color>
+    <color name="green20">#22008000</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FFA500</color>
+    <color name="light_orange">#AACF57</color>
+    <color name="lemonyellow">#FFFACD</color>
+    <color name="graywhite">#FFC6C6C6</color>
+    <color name="grayslate">#FF8D8D8D</color>
+    <color name="lightblue">#0083FF</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent10">#1F000000</color>
+    <color name="transparent20">#2F000000</color>
+    <color name="transparent30">#3F000000</color>
+    <color name="transparent40">#4F000000</color>
+    <color name="transparent50">#5F000000</color>
+    <color name="transparent60">#6F000000</color>
+    <color name="transparent70">#7F000000</color>
+    <color name="transparent80">#8F000000</color>
+
+
+    <color name="color_radiobutton_checked">#1984d4</color>
+
+
+    <color name="blue">#0000ff</color>
+    <color name="whiteblue">#3399ff</color>
+    <color name="irongray">#364444</color>
+    <color name="whitegray">#c0c0c0</color>
+    <color name="callerlayout">#1c000000</color>
+    <color name="mywhite">#ffffff</color>
+    <color name="light_blue">#ff03a5ff</color>
+    <color name="dialog_title">#FF000000</color>
+    <color name="dialog_divider">#FF4DB6FF</color>
+    <color name="dialog_info">#FF284F7A</color>
+    <color name="dialog_btn">#FF8D8D8D</color>
+    <color name="write10">#22ffffff</color>
+    <color name="divide_line">#EBEBF1</color>
+    <color name="blue_tab">#0D57C1</color>
+
+    <!-- material design black font color -->
+    <color name="font_black_0">#212121</color>
+    <color name="font_black_1">#424242</color>
+    <color name="font_black_2">#616161</color>
+    <color name="font_black_3">#757575</color>
+    <color name="font_black_4">#9e9e9e</color>
+    <color name="font_black_5">#bdbdbd</color>
+    <color name="font_black_6">#e0e0e0</color>
+
+    <!--基本样式设置-->
+    <color name="base_normal">#ffffff</color>
+    <color name="colorPrimary">#1984d4</color>
+    <!--最顶部那里的颜色-->
+    <color name="colorPrimaryStatusBar">#1984d4</color>
+    <color name="colorPrimary_yellow">#FBBC05</color>
+    <color name="colorPrimaryStatusBar_red">#d13268</color>
+    <color name="colorPrimaryStatusBar_yellow">#FBBC05</color>
+    <color name="red_skin">#FF4081</color>
+    <color name="blue_skin">#1984d4</color>
+    <color name="yellow_skin">#FBBC05</color>
+    <color name="toolbarBackColor">#FFFFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColor">#333333</color>
+    <color name="infoTextColor">#999999</color>
+    <color name="layout_bg_normal">#f6f6f6</color>
+    <color name="layout_bg_pressed">#dfdfdf</color>
+    <color name="line_color">#e7e7e7</color>
+    <color name="windows_bg">#fafafa</color>
+    <color name="edit_color">#333333</color>
+    <color name="edit_hit_color">#999999</color>
+    <color name="light_text_color">#555555</color>
+    <color name="window_background">#EBEBEB</color>
+    <color name="light_gray_color">#747474</color>
+
+    <color name="list_divider_color">#DADADA</color>
+    <color name="gray_tint">#F8F8F8</color>
+
+    <!-- 下拉刷新时，颜色值 -->
+    <color name="swiperefresh_color1">#ff00ddff</color>
+    <color name="swiperefresh_color2">#ffffbb33</color>
+    <color name="swiperefresh_color3">#ffff4444</color>
+    <color name="swiperefresh_color4">#ffaa66cc</color>
+
+
+    <color name="rcv_foot_text">#a4a9b0</color>
+    <color name="rcv_foot_line">#d0d0d0</color>
+    <color name="rcv_foot_bg">#ebeeef</color>
+
+    <!-- 登录、注册 -->
+    <color name="bg_login">#dac2a0</color>
+    <color name="edit_hint_color">#999999</color>
+    <color name="brown_btn_click">#dfbb88</color>
+    <color name="brown_btn_normal">#d79c47</color>
+
+
+    <color name="personal_register_btn_color">#157efb</color>
+
+    <!--消息详情-->
+    <color name="news_details_back">#ebebeb</color>
+
+    <color name="pull_list_head_color">#ffa8a8a8</color>
+    <color name="pressed">#959da0</color>
+    <color name="normal">#e0e0e0</color>
+    <color name="my_green">#97fd6f</color>
+    <color name="my_white">#99ffffff</color>
+    <color name="prem_item_bg_odd">#e4ebf3</color>
+    <color name="prem_item_bg_even">#f2f6fa</color>
+    <color name="work_icon_press">#2884c5</color>
+    <color name="work_icon_on">#0f6cae</color>
+    <color name="is_share">#fe6102</color>
+    <color name="no_share">#d8d8d8</color>
+    <color name="wsbs_theme">#266B8F</color>
+    <color name="main_color">#429fec</color>
+    <color name="line">#ffd3dde6</color>
+    <color name="service_outlets_bg">#EEEFF3</color>
+    <color name="perm_guide_txt">#6b6c6f</color>
+    <color name="material_manage_bg">#5F6164</color>
+
+    <color name="app_start_title">#454545</color>
+
+    <!--ZXing  -->
+    <color name="viewfinder_frame">#2477ab</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+
+    <!--二维码扫描-->
+    <color name="scan_corner_color">#0effc2</color>
+
+    <!-- 办事指南-->
+    <color name="line_gray">#69828282</color>
+    <color name="perm_guide_text_title">#56aee2</color>
+    <color name="perm_guide_background">#F5F6FB</color>
+    <color name="perm_guide_text_content">#6b6c6f</color>
+
+    <!--网点服务详情-->
+    <color name="tj_line_gray">#69828282</color>
+    <color name="tj_gray">#828282</color>
+    <color name="tj_my_green">#00A8E9</color>
+    <color name="tj_list_item_selected">#eeeeee</color>
+    <color name="list_item_selected">#eeeeee</color>
+    <color name="tj_red">#ff0000</color>
+
+
+    <color name="item1">#7cfc00</color>
+    <color name="item2">#35b87f</color>
+    <color name="item3">#3a7fdf</color>
+    <color name="item4">#fe6102</color>
+    <integer-array name="gplus_colors">
+        <item>@color/item1</item>
+        <item>@color/item2</item>
+        <item>@color/item3</item>
+        <item>@color/item4</item>
+    </integer-array>
+
+    <color name="bg_tran">#64000000</color>
+    <color name="order_bg">#EDEBEE</color>
+    <color name="blue_line">#1984d4</color>
+    <color name="order_yellow">#FFB027</color>
+    <color name="order_blue">#1984d4</color>
+    <color name="order_gray">#c8c8c8</color>
+    <color name="order_submit">#15ba44</color>
+    <color name="my_tab_bg">#F0F0F0</color>
+    <color name="green_btn_normal">#15B944</color>
+    <color name="green_btn_click">#10a43a</color>
+    <color name="blue_btn_normal">#1983D3</color>
+    <color name="blue_btn_click">#1676be</color>
+    <color name="clear_search">#F1583E</color>
+    <color name="about_bg">#f1f8fa</color>
+    <color name="about_text">#666666</color>
+
+    <color name="gv_bg">#ffd3dde6</color>
+    <!--    <color name="zwfwptjj">#FC8730</color>
+        <color name="bsdhxt">#D22D34</color>
+        <color name="ydbspt">#1B85D5</color>-->
+
+    <color name="reserve_blue">#46BDDD</color>
+    <color name="reserve_green">#b0ce30</color>
+    <color name="reserve_red">#ee4a28</color>
+
+    <color name="bj_item_date_bg">#C9C9C9</color>c
+    <color name="gz_news_top_bg">#44000000</color>
+
+    <color name="area_item_nomal_bg">#66000000</color>
+    <color name="area_item_click_bg">#33000000</color>
+    <color name="choose_area_txt_color">#FF6100</color>
+
+    <!-- 办事指南底部三个按钮颜色 -->
+    <color name="apply_online_blue_normal">#8DC73F</color>
+    <color name="apply_online_blue_select">#669900</color>
+    <color name="order_online_blue_normal">#2AABE4</color>
+    <color name="order_online_blue_select">#0066FF</color>
+    <color name="need_ask_gray_normal">#A2B3B7</color>
+    <color name="need_ask_gray_select">#778899</color>
+
+    <!-- 材料上传（申报） -->
+    <color name="file_upload_bg_color">#F1F1F1</color>
+    <color name="file_upload_remind_text_color">#EC4D47</color>
+
+
+    <!-- 横向进度条颜色 -->
+    <color name="progress_bar_unfinished">#D4D4D4</color>
+
+    <!-- 材料上传文字状态颜色 -->
+    <color name="file_upload_failed_color">#EF4E46</color>
+
+    <color name="file_upload_success_color">#13BB42</color>
+
+    <color name="file_uploading_color">#FE8500</color>
+
+    <!-- 上传材料列表背景颜色 -->
+    <color name="file_upload_bg">#F0F0F0</color>
+
+    <!-- 滚轮颜色 -->
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="cancel_achieve_num_btn">#f79d01</color>
+    <color name="dots_color">@color/colorPrimary</color>
+    <color name="dots_white">#ffffff</color>
+
+    <drawable name="completedTaskBackground">#CCCCCC</drawable>
+
+    <drawable name="touchFeedback">#CFD8DC</drawable>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WrapLinearLayout">
+        <attr name="grivate" format="enum"><!--对齐方式 !-->
+            <enum name="right" value="0" />
+            <enum name="left" value="1" />
+            <enum name="center" value="2" />
+        </attr>
+        <attr name="horizontal_Space" format="dimension" />
+        <attr name="vertical_Space" format="dimension" />
+        <attr name="isFull" format="boolean" />
+    </declare-styleable>
+
+    <!--首界面倒计时-->
+    <declare-styleable name="CircleTextProgressbar">
+        <attr name="in_circle_color" format="color" />
+        <attr name="out_circle_color" format="color" />
+    </declare-styleable>
+
+
+    <!--圆角imageview-->
+    <declare-styleable name="RoundAngleImageView">
+        <attr name="roundWidth" format="dimension" />
+        <attr name="roundHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="NineGridImageView">
+        <attr name="imgGap" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="DonutProgress">
+        <attr name="progress" format="integer" />
+        <attr name="donut_max" format="integer" />
+        <attr name="donut_unfinished_color" format="color" />
+        <attr name="donut_finished_color" format="color" />
+        <attr name="donut_finished_stroke_width" format="dimension" />
+        <attr name="donut_unfinished_stroke_width" format="dimension" />
+        <attr name="donut_text_size" format="dimension" />
+        <attr name="donut_text_color" format="color" />
+        <attr name="donut_prefix_text" format="string" />
+        <attr name="donut_suffix_text" format="string" />
+        <attr name="donut_background_color" format="color" />
+        <attr name="donut_inner_bottom_text" format="string" />
+        <attr name="donut_inner_bottom_text_size" format="dimension" />
+        <attr name="donut_inner_bottom_text_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MovieRecorderView">
+        <!-- 开始是否打开摄像头 -->
+        <attr name="is_open_camera" format="boolean" />
+        <!-- 一次拍摄最长时间 -->
+        <attr name="record_max_time" format="integer"/>
+        <!-- 视频分辨率宽度 -->
+        <attr name="width_record" format="integer"/>
+        <!-- 视频分辨率高度 -->
+        <attr name="height_record" format="integer"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="FlowNodeView">
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="bgColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="RatioLayout">
+        <attr name="ratio" format="float"></attr>
+        <attr name="ratioMode" format="enum">
+            <enum name="width" value="0"></enum>
+            <enum name="height" value="1"></enum>
+        </attr>
+    </declare-styleable>
+</resources>
